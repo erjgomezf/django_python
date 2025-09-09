@@ -91,6 +91,20 @@ Esta sección contiene una lista detallada de comandos útiles para el día a d�
 *   **Crear un proyecto Django:** `django-admin startproject <proyecto>`
 *   **Iniciar el servidor de desarrollo:** `python3 manage.py runserver`
 *   **Crear una aplicación Django:** `python3 manage.py startapp <nombre_de_la_app>`
+*   **Para crear una migracion (Se debe hacer cada vez que realizamos un cambio en el modelo):** `python3 manage.py makemigrations`
+*   **Para aplicar las migraciones a la base de datos:** `python3 manage.py migrate`
+*   **Para revisar la BBDD:** `./manage.py dbshell`
+*   **Para utilizar el shell en la app de Django:** `/.manage.py shell`
+*   **Para guardar los cambios en la shell:** `.save()`
+*   **Para borrar los cambios en la shell:** `.delete()`
+*   **Para salir de la shell:** ctrl+z
+
+### SQLite
+
+*   **Para ver las tablas:** `sqlite3 db.sqlite3 .tables`
+*   **Para ver como se creo la tabla:** `sqlite3 db.sqlite3 .schema <nombre_de_la_tabla>`
+*   Si estas en la shell, solo ejectas despues del "." ejm: `.schema <nombre_de_la_tabla>`
+*   Para salir de la sheel: `.exit` o Ctrl+Z
 
 ### Testing (unittest, pytest, doctest)
 
