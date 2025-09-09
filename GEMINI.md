@@ -90,7 +90,7 @@ Esta sección contiene una lista detallada de comandos útiles para el día a d�
 *   **Instalar Django** `pip install django`
 *   **Crear un proyecto Django:** `django-admin startproject <proyecto>`
 *   **Iniciar el servidor de desarrollo:** `python3 manage.py runserver`
-*   **Crear una aplicación Django:** `python3 manage.py startapp app`
+*   **Crear una aplicación Django:** `python3 manage.py startapp <nombre_de_la_app>`
 
 ### Testing (unittest, pytest, doctest)
 
