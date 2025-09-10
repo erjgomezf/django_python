@@ -64,8 +64,8 @@ Esta sección contiene una lista detallada de comandos útiles para el día a d�
 
 ### Entorno Virtual y Dependencias
 
-*   **Crear entorno virtual:** `python3 -m venv env`
-*   **Activar (Linux/macOS):** `source env/bin/activate`
+*   **Crear entorno virtual:** `python3 -m venv ~/.env/<nombre_entorno>`
+*   **Activar (Linux/macOS):** `source ~/.env/<nombre_entorno>/bin/activate`
 *   **Activar (Windows):** `.\env\Scripts\activate`
 *   **Desactivar entorno:** `deactivate`
 *   **Instalar dependencias de un archivo:** `pip install -r requirements.txt`
